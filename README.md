@@ -8,6 +8,14 @@ The Python scripts were developed using public voice data from the UCI Machine L
 
 The results obtained using these Python codes were published in the proceedings of the XIV Simpósio de Engenharia Biomédica (ISSN: 2358-3568) [1]. This study demonstrated the effectiveness of ML models in identifying PD from voice recordings, providing a valuable resource for further research and clinical applications.
 
+The table below summarizes the performance metrics of the three best-performing models applied to the test data:
+
+| Model              | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | AUC  |
+|--------------------|--------------|---------------|------------|--------------|------|
+| Naïve Bayes        | 92.59        | 100           | 87.50      | 93.33        | 0.88 |
+| SVM-Linear         | 88.89        | 100           | 81.25      | 89.65        | 0.91 |
+| Logistic Regression| 88.89        | 100           | 81.25      | 89.65        | 0.90 |
+
 A key feature of our implementation is the use of cross-validation to ensure robust model evaluation. The Naïve Bayes classifier, in particular, exhibited the highest accuracy among the tested models, highlighting its potential for early PD diagnosis. By providing these Python codes, we aim to support future research in developing reliable diagnostic tools and contribute to the broader field of medical data science.
 
 These codes offer a comprehensive toolkit for ML-based voice analysis, empowering researchers and clinicians to harness the power of ML for early and accurate diagnosis of PD. The provided scripts include functions for data preprocessing, model training, and evaluation, ensuring reproducibility and ease of use in various experimental setups.
