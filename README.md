@@ -20,7 +20,7 @@ A key feature of our implementation is the use of cross-validation to ensure rob
 
 These codes offer a comprehensive toolkit for ML-based voice analysis, empowering researchers and clinicians to harness the power of ML for early and accurate diagnosis of PD. The provided scripts include functions for data preprocessing, model training, and evaluation, ensuring reproducibility and ease of use in various experimental setups.
 
-## Reference
+## References
 
 [1] D. H. da. Silva, C. T. Ribeiroe A. A. Pereira, “Um estudo sobre o uso de modelos de Machine Learning para o diagnóstico da Doença de Parkinson por meio da análise de voz de pacientes”, dez. 2022. https://doi.org/10.5281/zenodo.7490097
 
