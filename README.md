@@ -20,6 +20,23 @@ A key feature of our implementation is the use of cross-validation to ensure rob
 
 These codes offer a comprehensive toolkit for ML-based voice analysis, empowering researchers and clinicians to harness the power of ML for early and accurate diagnosis of PD. The provided scripts include functions for data preprocessing, model training, and evaluation, ensuring reproducibility and ease of use in various experimental setups.
 
+## Pré-requisitos
+
+Before installing and running the software, ensure you have Python 3.6 or higher installed, as well as the following packages:
+
+- pandas
+- pandas
+- PIL (Python Imaging Library)
+- plotly
+- networkx
+
+## Instalação
+
+To install the software and all necessary dependencies, follow these steps:
+
+1. Clone o repositório em sua máquina local:
+2. Install the dependencies using pip: pip install -r requirements.txt
+
 ## References
 
 [1] D. H. da. Silva, C. T. Ribeiroe A. A. Pereira, “Um estudo sobre o uso de modelos de Machine Learning para o diagnóstico da Doença de Parkinson por meio da análise de voz de pacientes”, dez. 2022. https://doi.org/10.5281/zenodo.7490097
@@ -27,3 +44,15 @@ These codes offer a comprehensive toolkit for ML-based voice analysis, empowerin
 [2] L. Naranjo, C. J. Pérez, Y. Campos-Roca, and J. Martín, “Addressing voice recording replications for Parkinson’s disease detection,” Expert Syst Appl, vol. 46, pp. 286–292, Mar. 2016. https://doi.org/10.1016/j.eswa.2015.10.034
 
 [3] Prez, Carlos. (2019). Parkinson Dataset with replicated acoustic features. UCI Machine Learning Repository. https://doi.org/10.24432/C5701F
+
+📝 Citação
+If you find useful for your research or development, please cite the following:
+
+```bibtex
+@inproceedings{PyMLDA2024,
+  title={PyMLDA - Machine Learning for Damage Assessment},
+  author={Coelho, J.S. and Machado, M.R. and Sousa, A.A.S.R.},
+  booktitle={},
+  year={2024}
+}
+
